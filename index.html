@@ -21,10 +21,10 @@
             text-align: center;
         }
 
-        header h1 {
-            margin: 0;
-            font-size: 2.5em;
-        }
+            header h1 {
+                margin: 0;
+                font-size: 2.5em;
+            }
 
         .container {
             width: 80%;
@@ -37,10 +37,10 @@
             margin: 20px 0;
         }
 
-        .bio p {
-            font-size: 1.2em;
-            line-height: 1.6em;
-        }
+            .bio p {
+                font-size: 1.2em;
+                line-height: 1.6em;
+            }
 
         .contact-info {
             background-color: #ff6f61;
@@ -49,19 +49,19 @@
             text-align: center;
         }
 
-        .contact-info h2 {
-            margin: 0 0 20px 0;
-        }
+            .contact-info h2 {
+                margin: 0 0 20px 0;
+            }
 
-        .contact-info a {
-            color: white;
-            text-decoration: none;
-            font-weight: bold;
-        }
+            .contact-info a {
+                color: white;
+                text-decoration: none;
+                font-weight: bold;
+            }
 
-        .contact-info a:hover {
-            text-decoration: underline;
-        }
+                .contact-info a:hover {
+                    text-decoration: underline;
+                }
 
         footer {
             background-color: #333;
@@ -79,6 +79,18 @@
             right: 20px;
             z-index: 1000;
         }
+
+        .profile-photo {
+            text-align: center;
+            margin: 20px 0;
+        }
+
+            .profile-photo img {
+                width: 200px;
+                height: auto;
+                border-radius: 50%;
+                border: 4px solid #ff6f61;
+            }
     </style>
 </head>
 
@@ -89,21 +101,29 @@
     </header>
 
     <div class="container">
+        <!-- Profil Fotoğrafı -->
+        <div class="profile-photo">
+            <img src="images/profil-fotografi.jpg" alt="Enver Göksu Profil Fotoğrafı">
+        </div>
+
         <section class="bio">
             <h2>Hakkımda</h2>
-            <p>Enver Göksu, 26 Eylül 1997 tarihinde Adıyaman Gölbaşı'nda dünyaya geldi. Şu an 26 yaşındadır. Uzun yıllar pastacılık alanında deneyim kazanan Enver, Gaziantep'te 10 yıl boyunca kuru pasta ustalığı yaparak bu alanda uzmanlaştı. Mesleki deneyimlerini daha da genişletmek amacıyla bir süre Almanya'ya giderek burada hem mesleki hem de dil becerilerini geliştirdi. Almanya'da bulunduğu süre boyunca Almanca öğrendi ve İngilizcesini de ilerletti.
+            <p>
+                Enver Göksu, 26 Eylül 1997 tarihinde Adıyaman Gölbaşı'nda dünyaya geldi. Şu an 26 yaşındadır. Uzun yıllar pastacılık alanında deneyim kazanan Enver, Gaziantep'te 10 yıl boyunca kuru pasta ustalığı yaparak bu alanda uzmanlaştı. Mesleki deneyimlerini daha da genişletmek amacıyla bir süre Almanya'ya giderek burada hem mesleki hem de dil becerilerini geliştirdi. Almanya'da bulunduğu süre boyunca Almanca öğrendi ve İngilizcesini de ilerletti.
 
                 Enver Göksu, Türkçe, İngilizce ve Almanca olmak üzere üç dil bilmektedir. Şu anda doğduğu yer olan Gölbaşı'nda, abisinin işletmesinde kuru pasta, yaş pasta ve baklava ustası olarak çalışmaktadır. Mesleki bilgi birikimi ve dil yetenekleri sayesinde hem yerel hem de uluslararası alanda hizmet verebilecek donanıma sahiptir.
-                
+
             </p>
         </section>
 
         <section class="contact-info">
             <h2>İletişim Bilgileri</h2>
             <p>Telefon: <a href="tel:+905468142461">+90 546 814 24 61</a></p>
-            <p><a href="https://wa.me/905468142461" target="_blank">WhatsApp</a> |
+            <p>
+                <a href="https://wa.me/905468142461" target="_blank">WhatsApp</a> |
                 <a href="https://tr-tr.facebook.com/people/Enver-Goksu/pfbid0231BHepk2zWzF4oK55hdPvQ1diUThAiLLzpRPitvRpyMyzVHDbDRhgsa2TQEnMLDkl/" target="_blank">Facebook</a> |
-                <a href="https://instagram.com/enver_goksu02" target="_blank">İnstagram</a></p>
+                <a href="https://instagram.com/enver_goksu02" target="_blank">İnstagram</a>
+            </p>
         </section>
     </div>
 
@@ -111,6 +131,7 @@
         <p>&copy; Enver GÖKSU</p>
     </footer>
 
+    <!-- WhatsApp Butonu -->
     <a href="https://wa.me/905468142461" target="_blank" class="whatsapp-button">
         <img src="images/whatsapp-logo.png" alt="WhatsApp ile İletişime Geçin" style="width:50px;height:50px;">
     </a>
